@@ -1,9 +1,9 @@
 #include "usart.h"
 #include "temp.h"
 #include <stdio.h>
-#include <FreeRTOS.h>
-#include <task.h>
-#include <queue.h>
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
 
 #define NUM_OF_SAMPLES 100
 
